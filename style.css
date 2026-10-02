@@ -1,0 +1,538 @@
+body{
+    background-color: bisque;
+}
+
+.navabar {
+    width: 100%;
+    height: 100px;
+    background-color:burlywood;
+    padding-left:0;
+    padding-right:0;
+}
+
+.title{
+    font-family:Fontdiner Swanky;
+    font-size:x-large;
+    color:#3E3028;
+}
+
+
+#logo {
+    max-width: 75px;
+
+    position: absolute;
+    right: 20px;
+    top: 0px;
+}
+
+#logo:hover{
+    cursor: pointer;
+}
+
+#aboutknop{
+    font-family:DynaPuff;
+    font-size: 25px;
+    color: #3E3028;
+    position: absolute;
+    top: 15px;
+    left :350px
+    
+}
+
+
+#homeknop{
+     font-family:DynaPuff;
+    font-size: 25px;
+    color: #3E3028;
+    position: absolute;
+    top: 15px;
+    left :350px
+    
+}
+
+
+#socialsknop{
+    font-family:DynaPuff;
+    font-size: 25px;
+    color: #3E3028;
+    position: absolute;
+    top:15px;
+    left: 450px
+}
+#friendsknop{
+    font-family:DynaPuff;
+    font-size: 25px;
+    color: #3E3028;
+    position: absolute;
+    top:15px; 
+    left:570px;
+}
+
+
+
+.welcomebox{
+      width: 70%;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #C9AD8A;
+}
+
+.welcomebox{
+    max-width: 500px;
+    position: absolute;
+    left: 750px;
+    bottom: 200px;
+}
+
+#welcometext{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+#phoneme{
+    position: absolute;
+    bottom: 270px;
+}
+
+
+#c-text{
+    position: absolute;
+    bottom: 0px;
+}
+
+
+
+#hometext{
+    position: absolute;
+    bottom:0px;
+    right:20px;
+}
+
+
+
+
+
+    .aboutmessage {
+        width: 90%;
+        min-height: 75vh;
+
+        margin: 40px auto;
+        padding: 50px;
+
+        background-color: #D8C1A5;
+
+        border: 3px solid #3E3028;
+        border-radius: 20px;
+
+        box-sizing: border-box;
+    }
+
+
+    .message h1{
+        font-size: 50px;
+        font-family:Libre Caslon Condensed;
+
+    }
+
+    .message p{
+        font-size:30px ;
+        font-family: Libre Caslon Condensed;
+    }
+
+
+    #mephoto{
+        width: 300px;
+        position: absolute;
+        right: 130px;
+        bottom: 200px;
+    }
+
+
+
+#heart{
+    width: 200px;
+    position: absolute;
+    right: 50px;
+    top:200px;
+
+}
+
+#heart:hover{
+    cursor:pointer;
+    
+
+}
+
+.youtubebox{
+    width: 300px;
+    padding: 25px;
+
+    background-color: #D8C1A5;
+    border: 2px solid #3E3028;
+    border-radius: 15px;
+
+    text-align: center;
+}
+
+.youtubebox p{
+    font-family:Libre Caslon Condensed;
+}
+
+.youtubebox h1{
+    font-family:Libre Caslon Condensed;
+}
+
+.youtubebox{
+    position: absolute;
+    left: 100px;
+    top: 350px;
+}
+
+#youtubelink{
+    color:black;
+    font-family: DynaPuff;
+}
+
+#heartsocials{
+    width: 300px;
+}
+
+#heartsocials{
+    position: absolute;
+    left: 750px;
+    top: 350px;
+}
+
+
+.discordbox{
+    width: 300px;
+    padding: 25px;
+
+    background-color: #D8C1A5;
+    border: 2px solid #3E3028;
+    border-radius: 15px;
+
+    text-align: center;
+}
+
+
+.discordbox{
+    position: absolute;
+    right: 100px;
+    top: 350px;
+}
+
+
+.discordbox h1{
+    font-family: Libre Caslon Condensed;
+}
+
+.discordbox p{
+    font-family: Libre Caslon Condensed;
+}
+
+
+.joriansbox{
+     width: 300px;
+    padding: 25px;
+
+    background-color: #D8C1A5;
+    border: 2px solid #3E3028;
+    border-radius: 15px;
+
+    text-align: center;
+}
+.joriansbox{
+    position: absolute;
+    left:50px;
+    top:250px;
+}
+
+
+.joriansbox p{
+    font-family:Libre Caslon Condensed;
+}
+
+.joriansbox h1 {
+    font-family: Libre Caslon Condensed;
+}
+
+.tygosbox{
+ width: 300px;
+    padding: 25px;
+
+    background-color: #D8C1A5;
+    border: 2px solid #3E3028;
+    border-radius: 15px;
+
+    text-align: center;
+}
+
+.tygosbox{
+    position: absolute;
+    right: 50px;
+    top: 500px;
+}
+
+.tygosbox h1{
+        font-family: Libre Caslon Condensed;
+}
+
+.tygosbox p{
+        font-family: Libre Caslon Condensed;
+}
+
+#mepose{
+    position: absolute;
+    right:500px;
+}
+
+#heartfriends{
+    max-width: 200px;
+}
+
+
+#heartfriends{
+    position: absolute;
+    right: 300px;
+    top:200px;
+}
+
+#linktygo{
+    position: absolute;
+    bottom: 10px;
+    left:30px;
+}
+
+#linktygo{
+    font-family:DynaPuff;
+    color:black;
+}
+
+#linkjorian{
+    position: absolute;
+    bottom: 10px;
+    left: 150px;
+}
+
+#linkjorian{
+    font-family: DynaPuff;
+    color:black;
+}
+
+#discordjorian{
+    position: absolute;
+    bottom:10px;
+    left:280px;
+}
+
+#discordjorian{
+    font-family:DynaPuff;
+    color:black;
+}
+
+#discordlink{
+    font-family:DynaPuff;
+    color:black;
+}
+
+
+#changelogknop {
+    font-family: DynaPuff;
+    font-size: 25px;
+    color: #3E3028;
+
+    position: absolute;
+    top: 15px;
+    left: 690px;
+}
+
+
+
+.changelogbox{
+    width: 1000px;
+    height: 900px;
+
+    background-color: #D8C1A5;
+    border: 3px solid #3E3028;
+    border-radius: 15px;
+    text-align: center;
+
+    position: absolute;
+    top: 200px;
+    left: 300px;
+
+    
+}
+
+
+.changelogbox h1{
+    font-size: 60px;
+
+}
+
+
+.changelogbox p{
+    font-size: 40px;
+    margin:50px;
+}
+
+#bell{
+    font-size: 150px;
+}
+
+#global{
+    font-size: 400px;
+
+    position: absolute;
+    right: 20px;
+    top:0px;
+}
+
+#creditsknop{
+    position: absolute;
+    left: 860px;
+}
+
+#creditsknop{
+    font-family:DynaPuff ;
+    color: black;
+    font-size: 25px;
+    top:15px;
+}
+
+
+.creditsbox{
+     width: 90%;
+        min-height: 75vh;
+
+        margin: 40px auto;
+        padding: 50px;
+
+        background-color: #D8C1A5;
+
+        border: 3px solid #3E3028;
+        border-radius: 20px;
+
+        box-sizing: b
+        
+    
+}
+
+.creditsbox{
+    text-align: center;
+    font-family: Libre Caslon Condensed;
+    font-size: 30px;
+}
+
+
+#camerame{
+    position: absolute;
+    left: 20px;
+    top:30px;
+}
+
+#youtubeknop{
+      font-family:DynaPuff ;
+    color: black;
+    font-size: 25px;
+    
+}
+
+
+#youtubeknop{
+    position: absolute;
+    left: 1000px;
+    top: 15px;
+}
+
+
+.ytbox{   width: 1000px;
+    height: 900px;
+
+    background-color: #D8C1A5;
+    border: 3px solid #3E3028;
+    border-radius: 15px;
+    text-align: center;
+
+    position: absolute;
+    top: 200px;
+    left: 50px;
+
+
+}
+
+.ytbox h1{
+    font-family: Libre Caslon Condensed;
+
+}
+
+
+.ytbox p{
+    font-family: Libre Caslon Condensed;
+}
+
+#Newshorttx{
+    position: absolute;
+    top: 200px;
+    left:380px;
+}
+
+#Newshorttx{
+    font-family:Libre Caslon Condensed;
+    font-size:30px;
+}
+
+#shortlink{
+    font-family: DynaPuff;
+    color: black;
+    font-size: 25px;
+}
+
+#shortlink{
+    position: absolute;
+    left: 700px;
+    top: 240px;
+}
+
+
+#h12{
+    font-size: 30px;
+    font-family: Libre Caslon Condensed;
+    color: black;
+}
+
+#h12{
+    position: absolute;
+    top: 380px;
+    left: 380px;
+}
+
+
+
+#videolink{
+    font-family: DynaPuff;
+    font-size: 25px;
+    color: black;
+}
+
+#videolink{
+    position: absolute;
+    top: 420px;
+    left: 700px;    
+}
+
+
+#mewithcam{
+    position: absolute;
+    top:10px;
+    left: 1500px;
+}
+
+
+#mewithcam{
+    width: 400px;
+}
